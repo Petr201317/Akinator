@@ -1,0 +1,133 @@
+* {
+     /**
+     * Для эксплорера
+     */
+     -ms-user-select: none;
+
+     /**
+      * Для мозилы
+      */
+     -moz-user-select: none;
+ 
+     /**
+      * Для конкверора
+      */
+     -khtml-user-select: none;
+ 
+     /**
+      * Для Сафари и Хрома
+      */
+     -webkit-user-select: none;
+    text-decoration: none;
+}
+p span {
+    /**
+     * Для эксплорера
+     */
+    -ms-user-select: none;
+
+    /**
+     * Для мозилы
+     */
+    -moz-user-select: none;
+
+    /**
+     * Для конкверора
+     */
+    -khtml-user-select: none;
+
+    /**
+     * Для Сафари и Хрома
+     */
+    -webkit-user-select: none;
+}
+
+p {
+    margin: 0;
+}
+.start_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 47.5px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: rgb(225, 14, 14);
+    cursor: pointer;
+}
+.question__text {
+    font-size: 20px;
+    color:white;
+}
+
+.question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 107, 64);
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    margin-top: 170px;
+    border-radius: 15px;
+    text-align: center;
+}
+.question__text {
+    font-size: 27px;
+    color:white;
+}
+.answer {
+    background-color: rgb(67, 160, 160);
+    width: 300px;
+    height: 195px;
+    margin: auto;
+    padding: 5px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+.start {
+    display: flex;
+    background-color: rgb(43, 2, 63);
+    justify-content: center;
+    align-items: center;
+    margin: 0 ;
+    height: 195px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size:50px;
+   
+}
+.start__text {
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 95px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.yes-btn {
+    margin-bottom: 5px;
+    background-color: green;
+}
+.no-btn {
+   background-color: red;
+}
+.yes-btn__text {
+    font-size: 50px;
+    cursor: pointer;
+}
+.no-btn__text {
+    font-size: 50px;
+    cursor: pointer;
+}
