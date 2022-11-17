@@ -68,7 +68,7 @@ p {
     background-color: rgb(12, 107, 64);
     width: 400px;
     height: 100px;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 170px;
     border-radius: 15px;
     text-align: center;
@@ -130,4 +130,9 @@ p {
 .no-btn__text {
     font-size: 50px;
     cursor: pointer;
+}
+@media (max-width: 400px) {
+    .question {
+        width: 100%;
+    }
 }
