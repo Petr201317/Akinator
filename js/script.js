@@ -249,59 +249,12 @@ function retry() {
         element.style.display = 'none'; 
     });
     start__text.textContent = 'Начать заново';
-
 }
-
 function setResult(result) {
-    question__text.textContent = 'Ты загадал: ' + result; 
+    question__text.textContent = 'Я отгадал!              Ты ' + result; 
     console.log('11111111')   
     retry() 
 }
 yes_btn.addEventListener('click', handleClickYes);
 no_btn.addEventListener('click', handleClickNo);
 start.addEventListener('click', startProgram);
-
-
-
-//!!Object.keys(database[i]).length==1
-
-
-
-
-
-//console.log(getQuestion())
-/*
-for (i = 0; i < database.length; i++) {
-    //for (j = 0; j < questionList.length; j++) {
-        
-        // if (database[i][questionList[j]] == true) {
-        //     delete database[i][questionList[j]];
-        // }
-        //if (database[i][j] == true) {
-            if (database[i][getQuestion()] == false) {
-                delete database[i]["name"];
-            }
-       // }
-    //}
-}
-console.log(database)
-*/
-/*
-for(i=0;i<database.length;i++) {
-    for(j=0;j<questionList.length;j++) {
-        console.log(questionList[j]);
-        console.log(database[i][questionList[j]]);
-        if (database[i][questionList[j]]) {
-            trueCount++;
-        } else {
-            falseCount++;
-        }
-    }
-    console.log("--------");
-    if (Math.abs(trueCount-falseCount)<dx) {
-        dx = Math.abs(trueCount-falseCount);
-        currentQuestion = questionList[j] //!
-    }
-}
-console.log(currentQuestion);
-*/
